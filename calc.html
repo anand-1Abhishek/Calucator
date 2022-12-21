@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div id="head">Calculation of 2 Numbers Using Javascript</div>
+        <div>
+            <label class="lbl" id="lb1"> Enter a Number : </label>
+             <input type="text" id="n1" class="form-control" placeholder="Number 1">
+        </div>
+        <div>
+            <label class="lbl">Enter another Number :</label>
+              <input type="text" id="n2" class="form-control" placeholder="Number 2">
+        </div>
+        <div>
+            <label class="Operations" >Operations :</label>
+            <select id="Operation">
+                <option value="add">Addition</option>
+                <option value="sub">Subtraction</option>
+                <option value="mul">Multiplication</option>
+                <option value="div">Division</option>
+            </select>
+        </div>
+        <div >
+            <button onclick="cal()" id="bttn" >Get Answer  </button>
+        </div>
+        <div class="res">
+            <p id="result"></p>
+        </div>
+        
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.html,body{
+    background-color: rgb(93, 59, 156);
+    background-image: url(mth.jpg);
+}
+#head{
+    font-size: 25px;
+    margin-bottom: 17px;
+    font-weight: 100;
+    padding-bottom: 8px;
+    text-align: center;
+    color: rgb(77, 18, 145);
+}
+.container{
+    font-style: cursive;
+    font-family: cursive;
+    border: 2px solid black;
+    width: 28%;
+    height: 398px;
+    margin-top: 70px;
+    margin-left: 450px;
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 35px;
+}
+.lbl{
+    font-size: 23px;
+    margin: 40px;
+}
+.form-control{
+    margin-left: 40px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.Operations{
+    margin-left: 35px;
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+}
+#Operation{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+#bttn{
+    font-size: 15px;
+    padding: 11px;
+    margin-left: 125px;
+    text-align: center;
+    font-family: cursive;
+}
+#result{
+    text-align: center;
+    color: rgb(44, 0, 80);
+    font-size: 1.5rem;
+    /* padding: 0 1rem 1.5rem 1rem; */
+    margin-bottom: 10px;
+}
